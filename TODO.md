@@ -14,3 +14,7 @@
 
 
 ## Done
+
+
+## Polishing
+* Auto-rangement
