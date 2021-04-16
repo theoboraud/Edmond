@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Workspace" id="{4ad00bd7-01c2-4ca3-81e4-b429a101df32}">
+		<property name="builtBanksOutputDirectory">
+			<value>/Users/theophileboraud/Desktop/DEV/UnrealProjects/Edmond/Content/FMOD</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{5b706650-a054-4a3d-897f-b11997ce3ef7}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{88c36434-87a5-4d35-8390-52d63bbf6cc0}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{74a5e911-0c0b-4864-b7da-114712640625}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{3a892bdb-4912-4015-9a7b-c16e06d641f3}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{f02a782e-a54a-4e94-8789-a16736837294}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{e7c93b4a-efb8-41cf-beaf-b4c2e5d5f109}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{c0de8234-a18d-4a1c-a082-167376001414}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{7c0e91df-4614-44c0-9497-e62845bd79f5}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{8c66f989-d534-4868-97ac-af03c03e658d}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{20762ebb-23de-446d-8f61-926836b5fc44}</destination>
+		</relationship>
+	</object>
+</objects>
