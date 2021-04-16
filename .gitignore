@@ -74,3 +74,6 @@ DerivedDataCache/*
 
 # Prop files
 Content/Local/**
+
+# Starter Content
+Content/StarterContent/*
