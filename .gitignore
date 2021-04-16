@@ -47,7 +47,6 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/*/Binaries/*
 
 # Builds
 Build/*
@@ -74,6 +73,4 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 # Prop files
-LPGenericPropsSet02/*
-Food_Pack_01/*
-AutomotiveMaterials/*
+Content/Local
