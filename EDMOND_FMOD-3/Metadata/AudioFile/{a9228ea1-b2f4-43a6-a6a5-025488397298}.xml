@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{a9228ea1-b2f4-43a6-a6a5-025488397298}">
+		<property name="assetPath">
+			<value>S1P1_Intro.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>51.215986394557824</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c0de8234-a18d-4a1c-a082-167376001414}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{234ea8db-6203-4fb0-8f23-e103a495372f}">
+		<property name="assetPath">
+			<value>S1P1_Ticket_Inspi_Ed.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>29.879138321995466</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c0de8234-a18d-4a1c-a082-167376001414}</destination>
+		</relationship>
+	</object>
+</objects>
