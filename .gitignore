@@ -73,7 +73,11 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 # Prop files
-Content/Local/**
+Content/Local/Assets/Maps/**
+Content/Local/Assets/Blueprints/**
+Content/Local/Assets/FirstPersonOverview
+Content/Local/Assets/.DS_Store
+Content/Local/Assets/Props/Reference/*
 Content/AutomotiveMaterials/**
 Content/BroadcastStudio/**
 Content/Downtown_West/**
