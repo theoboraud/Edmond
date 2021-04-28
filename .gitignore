@@ -75,6 +75,7 @@ DerivedDataCache/*
 # Prop files
 Content/Local/**
 Content/AutomotiveMaterials/**
+Content/BroadcastStudio/**
 Content/Downtown_West/**
 Content/EF_Barbra/**
 Content/EF_Edie/**
@@ -86,6 +87,7 @@ Content/LPGenericPropsSet02/**
 Content/LPGenericPropsSet04/**
 Content/LPGenericPropsSet06/**
 Content/LPGenericPropsSet08/**
+Content/LPGenericPropsSet10/**
 Content/ModularBuildingSet/**
 Content/ModularHouses/**
 Content/MS_CityCurbs/**
