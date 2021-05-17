@@ -139,6 +139,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{6d912060-9de1-43ef-a8d8-b2087cafc497}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="isAsync">
 			<value>true</value>
 		</property>
@@ -171,7 +174,10 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>56</value>
+			<value>70</value>
+		</property>
+		<property name="color">
+			<value>Yellow</value>
 		</property>
 		<property name="start">
 			<value>17</value>
@@ -187,6 +193,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{dcc9174a-d435-461d-be05-4e8c5ff5ddf5}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="start">
 			<value>41</value>
 		</property>

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{0622756e-32f1-4f25-8efd-4d309fedd4e5}">
-		<property name="color">
-			<value>Blue</value>
-		</property>
 		<property name="name">
 			<value>S2P2_Narra_Stetson</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ceb87523-d970-4f88-8b5c-2bc117d6feba}</destination>
@@ -62,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{5eea648e-a8bd-486c-a010-30ef7050f6de}" />
 	<object class="MarkerTrack" id="{9e234c34-ac05-47e9-add4-6259e0ef62f8}" />
 	<object class="GroupTrack" id="{1e96da15-67cf-4bb7-a39c-8abaac31c294}">
+		<relationship name="modules">
+			<destination>{b5b0b2d1-8c46-4be9-92d8-385c16e08f5b}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{25dba91a-e3b1-4143-ae7d-51921a5f4a47}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{02347d76-0df9-4e5b-971f-e16ec2ed04cf}" />
+	<object class="Timeline" id="{02347d76-0df9-4e5b-971f-e16ec2ed04cf}">
+		<relationship name="modules">
+			<destination>{b5b0b2d1-8c46-4be9-92d8-385c16e08f5b}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{e4fc64ec-42c9-437d-8cef-1a7d9cc91ec8}">
 		<relationship name="effectChain">
 			<destination>{aa313404-79ca-4f5b-b064-e73f1b6e6abd}</destination>
@@ -84,7 +88,18 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{74e9c799-a64a-4650-8802-9aa53ddd1419}" />
+	<object class="SingleSound" id="{b5b0b2d1-8c46-4be9-92d8-385c16e08f5b}">
+		<property name="length">
+			<value>5.3849433106575963</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{2480375c-d05d-4c76-81b4-d4c51cf49fe2}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{25dba91a-e3b1-4143-ae7d-51921a5f4a47}">
+		<property name="volume">
+			<value>-11</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

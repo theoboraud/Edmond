@@ -72,38 +72,6 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-# Prop files
-Content/Local/Assets/Maps/**
-Content/Local/Assets/Blueprints/**
-Content/Local/Assets/FirstPersonOverview
-Content/Local/Assets/.DS_Store
-Content/Local/Assets/Props/Reference/*
-Content/AutomotiveMaterials/**
-Content/BroadcastStudio/**
-Content/Downtown_West/**
-Content/EF_Barbra/**
-Content/EF_Edie/**
-Content/EF_Edith/**
-Content/EF_MollyGreg/**
-Content/Food_Pack_01/**
-Content/InfinityBladeWeapons/**
-Content/LPGenericPropsSet02/**
-Content/LPGenericPropsSet04/**
-Content/LPGenericPropsSet06/**
-Content/LPGenericPropsSet08/**
-Content/LPGenericPropsSet10/**
-Content/ModularBuildingSet/**
-Content/ModularHouses/**
-Content/MS_BrickGroutV1/**
-Content/MS_CityCurbs/**
-Content/MS_CleanBrick/**
-Content/MS_ConcreteV2/**
-Content/MS_UltWoodVen/**
-Content/MS_WoodDecEss/**
-Content/NecrosUtilityMatPack/**
-Content/TwinmotionMaterials/**
-
-
 # Starter Content
 Content/StarterContent/*
 *.zip

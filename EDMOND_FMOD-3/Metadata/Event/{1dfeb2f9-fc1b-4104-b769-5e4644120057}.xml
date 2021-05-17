@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{1dfeb2f9-fc1b-4104-b769-5e4644120057}">
 		<property name="name">
-			<value>S4P2_Narra_Medocs</value>
+			<value>S2P4_Narra_Medocs</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -97,6 +97,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{20c4052c-1e7f-410c-b4fe-512041857e13}">
+		<property name="volume">
+			<value>-11</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
