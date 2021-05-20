@@ -128,6 +128,9 @@
 	<object class="MixerBusFader" id="{6624049a-2178-452d-a5ee-aaa8391b8be8}" />
 	<object class="MixerBusFader" id="{fc78d48e-321c-48a0-a07b-f3ab109043dc}" />
 	<object class="SFXReverbEffect" id="{3b76c220-0a0d-496b-a6c9-7b7e9c2f1835}">
+		<property name="decayTime">
+			<value>1200</value>
+		</property>
 		<property name="lateDelay">
 			<value>8</value>
 		</property>
@@ -144,10 +147,10 @@
 			<value>10500</value>
 		</property>
 		<property name="wetLevel">
-			<value>0</value>
+			<value>-29</value>
 		</property>
 		<property name="dryLevel">
-			<value>-4.5</value>
+			<value>-15</value>
 		</property>
 	</object>
 	<object class="SpatialiserEffect" id="{9b7a27ee-7348-4172-a222-bf8a04d52281}" />

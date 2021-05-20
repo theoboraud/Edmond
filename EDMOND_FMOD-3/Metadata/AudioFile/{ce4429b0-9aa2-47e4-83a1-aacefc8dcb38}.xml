@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{ce4429b0-9aa2-47e4-83a1-aacefc8dcb38}">
+		<property name="assetPath">
+			<value>Bag, Holdall, Leather Rummage Or Movements SND15731 1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.72372916666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c0de8234-a18d-4a1c-a082-167376001414}</destination>
+		</relationship>
+	</object>
+</objects>

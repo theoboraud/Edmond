@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{c2011291-53f4-4026-ba1b-3036a207e4f0}">
+		<property name="assetPath">
+			<value>S1_Narra_Tower_04_446.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.4460090702947843</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c0de8234-a18d-4a1c-a082-167376001414}</destination>
+		</relationship>
+	</object>
+</objects>

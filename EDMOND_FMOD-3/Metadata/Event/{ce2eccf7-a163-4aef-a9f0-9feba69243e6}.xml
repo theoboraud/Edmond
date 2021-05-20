@@ -97,6 +97,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{1e391dbd-1b32-4258-92be-0f81baf06d83}">
+		<property name="volume">
+			<value>8</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -131,14 +134,20 @@
 	<object class="SpatialiserEffect" id="{7376e7be-58b6-42e0-a448-f87dadf18b52}" />
 	<object class="MixerBusFader" id="{0538aa2b-d164-4865-baf2-8ab651f882b6}" />
 	<object class="SFXReverbEffect" id="{6a46d537-e920-4ee1-a3ea-5ca6385512cf}">
+		<property name="decayTime">
+			<value>1000</value>
+		</property>
 		<property name="lateDelay">
-			<value>8</value>
+			<value>14</value>
 		</property>
 		<property name="HFDecayRatio">
 			<value>41</value>
 		</property>
 		<property name="diffusion">
 			<value>91</value>
+		</property>
+		<property name="density">
+			<value>53.5</value>
 		</property>
 		<property name="lowShelfGain">
 			<value>-3.5</value>
@@ -147,10 +156,10 @@
 			<value>10500</value>
 		</property>
 		<property name="wetLevel">
-			<value>0</value>
+			<value>-15</value>
 		</property>
 		<property name="dryLevel">
-			<value>-4.5</value>
+			<value>-0.5</value>
 		</property>
 	</object>
 	<object class="ThreeEQEffect" id="{753776c7-df64-4a29-a999-a1a4b21c10a4}">

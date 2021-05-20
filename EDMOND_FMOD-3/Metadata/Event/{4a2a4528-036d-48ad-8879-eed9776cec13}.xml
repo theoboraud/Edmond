@@ -97,6 +97,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2b8534c3-09b2-4daa-89cd-4bed9d246ff7}">
+		<property name="volume">
+			<value>8</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -121,7 +124,7 @@
 	<object class="MixerBusEffectChain" id="{6e60869f-5780-4e28-b255-023aaa48516e}">
 		<relationship name="effects">
 			<destination>{ce099782-fdab-4029-9ff9-8fd107a6ad40}</destination>
-			<destination>{ac98bc96-12da-4933-b633-abe7e0191bb1}</destination>
+			<destination>{433a9e38-120a-44a1-84db-bb50af26244a}</destination>
 			<destination>{2c6ac923-40c6-4440-a112-b9260525ec85}</destination>
 			<destination>{8983cb91-042f-4ef5-af78-fc3680554050}</destination>
 		</relationship>
@@ -130,15 +133,21 @@
 	<object class="MixerBusFader" id="{c27a45c7-d211-46e4-b4c8-74cac3b598ad}" />
 	<object class="SpatialiserEffect" id="{1a6b1846-0bae-4472-ac37-20b56a492ba3}" />
 	<object class="MixerBusFader" id="{ce099782-fdab-4029-9ff9-8fd107a6ad40}" />
-	<object class="SFXReverbEffect" id="{ac98bc96-12da-4933-b633-abe7e0191bb1}">
+	<object class="SFXReverbEffect" id="{433a9e38-120a-44a1-84db-bb50af26244a}">
+		<property name="decayTime">
+			<value>1000</value>
+		</property>
 		<property name="lateDelay">
-			<value>8</value>
+			<value>14</value>
 		</property>
 		<property name="HFDecayRatio">
 			<value>41</value>
 		</property>
 		<property name="diffusion">
 			<value>91</value>
+		</property>
+		<property name="density">
+			<value>53.5</value>
 		</property>
 		<property name="lowShelfGain">
 			<value>-3.5</value>
@@ -147,10 +156,10 @@
 			<value>10500</value>
 		</property>
 		<property name="wetLevel">
-			<value>0</value>
+			<value>-15</value>
 		</property>
 		<property name="dryLevel">
-			<value>-4.5</value>
+			<value>-0.5</value>
 		</property>
 	</object>
 	<object class="ThreeEQEffect" id="{2c6ac923-40c6-4440-a112-b9260525ec85}">
